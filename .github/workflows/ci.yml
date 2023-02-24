@@ -44,7 +44,7 @@ jobs:
         file_name: .env
         fail_on_empty: false
     - name: Move .env file
-    - run: |
+      run: |
         cp "/github/workspace/.env" "/home/runner/work/dlp-web/dlp-web"
     - name: Build site with Next
       run: pnpm build
