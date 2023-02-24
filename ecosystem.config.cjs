@@ -1,7 +1,7 @@
 module.exports = {
     apps : [{
       name   : "dlp-web",
-      script : "npm",
+      script : "pnpm",
       args: "start",
       port : "8080",
       env_production: {
