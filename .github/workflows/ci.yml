@@ -40,7 +40,7 @@ jobs:
         envkey_NEXTAUTH_SECRET: ${{ secrets.NEXTAUTH_SECRET }}
         envkey_DISCORD_CLIENT_ID: ${{ secrets.DISCORD_CLIENT_ID }}
         envkey_DISCORD_CLIENT_SECRET: ${{ secrets.DISCORD_CLIENT_SECRET }}
-        directory: /home/runner/work/dlp-web/dlp-web
+        directory: ../../home/runner/work/dlp-web/dlp-web
         file_name: .env
         fail_on_empty: false
     - name: Build site with Next
