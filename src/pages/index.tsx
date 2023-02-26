@@ -1,13 +1,12 @@
 import { type NextPage } from "next";
 import Head from "next/head";
-import Link from "next/link";
 import BasicNavigation from "~/components/BasicNavigation/BasicNavigation";
 /* import { signIn, signOut, useSession } from "next-auth/react"; */
 
-import { api } from "~/utils/api";
+/** import { api } from "~/utils/api"; */
 
 const Home: NextPage = () => {
-  const hello = api.example.hello.useQuery({ text: ", we're walking each other home" });
+  /** const hello = api.example.hello.useQuery({ text: ", we're walking each other home" }); */
 
   return (
     <>
