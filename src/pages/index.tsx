@@ -1,12 +1,20 @@
 import { type NextPage } from "next";
 import Head from "next/head";
+<<<<<<< HEAD
+=======
+import Link from "next/link";
+>>>>>>> 6c875fa039e75cd5fb4b2dda3791ae8973aa5f47
 import BasicNavigation from "~/components/BasicNavigation/BasicNavigation";
 /* import { signIn, signOut, useSession } from "next-auth/react"; */
 
 /** import { api } from "~/utils/api"; */
 
 const Home: NextPage = () => {
+<<<<<<< HEAD
   /** const hello = api.example.hello.useQuery({ text: ", we're walking each other home" }); */
+=======
+  const hello = api.example.hello.useQuery({ text: ", we're walking each other home" });
+>>>>>>> 6c875fa039e75cd5fb4b2dda3791ae8973aa5f47
 
   return (
     <>

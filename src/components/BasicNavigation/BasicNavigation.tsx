@@ -1,5 +1,9 @@
 import Link from "next/link";
+<<<<<<< HEAD
 import type { FC } from "react";
+=======
+import { FC, ReactElement } from "react";
+>>>>>>> 6c875fa039e75cd5fb4b2dda3791ae8973aa5f47
 
 type AppProps = {
     includeIndex?: boolean;
